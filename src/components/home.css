@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.grid-container img {
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box-2 {
+    width: 100%;
+    height: 80vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-image {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+.text-overlays {
+    background-color: transparent;
+    border: none;
+}
+
+.selected-image-1 {
+    position: relative;
+}
+
+.image-with-text {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+  
+
+.text-overlays {
+    position: absolute;
+    top: 23%;
+    left: 33%;
+    transform: translate(-40%, -40%);
+}
+
+
+
+.add-btn {
+    border-radius: 25px;
+    padding: 10px 40px;
+    background-color: #008Dc0;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+.add-btn-2{
+    border-radius: 15px;
+    padding: 12px 12px;
+    height: 34px;
+    background-color: #008Dc0;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2%;
+
+}
+.add-btn-1 {
+    border-radius: 15px;
+    padding: 12px 12px;
+    height: 34px;
+    background-color: #008Dc0;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -10%;
+
+
+}
+
+.handle {
+  
+    color: white;
+    padding: 4px;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.text-input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    width: 98%;
+    height: 100%;
+    outline: none;
+    font-weight: 800;
+    padding: 4px;
+    text-transform:uppercase;
+    overflow: hidden;
+    
+}
+
+
+.react-resizable {
+    position: relative;
+}
+
+.react-resizable-handle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    padding: 0 3px 3px 0;
+    background-image: url('C:\\Users\\91628\\OneDrive\\Desktop\\trikl-project\\src\\asserts\\arrow.png');
+    background-position: bottom right;
+    cursor: se-resize;
+
+    border-radius: 0 4px 0 0;
+}
+
+
+.selected-image-1 {
+    position: relative;
+}
+
+.text-input button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.text-input button:hover {
+    background-color: #2980b9;
+
+}
+
+.text-input-1{
+    outline: none;
+    height: 30px;
+}
