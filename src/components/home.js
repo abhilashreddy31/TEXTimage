@@ -68,6 +68,8 @@ const Home = () => {
   
       const canvas = document.createElement('canvas');
       const image = new Image();
+
+      
   
       image.crossOrigin = 'anonymous';
       image.src = selectedImage;
